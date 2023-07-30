@@ -1,0 +1,14 @@
+Sandbox/Binaries/*
+Sandbox/Config/*
+Sandbox/Content/*
+Sandbox/DerivedDataCache/*
+Sandbox/Intermediate/*
+Sandbox/Platforms/*
+Sandbox/Saved/*
+Sandbox/.ignore
+Sandbox/.vscode/*
+Sandbox/.vs/*
+*.code-workspace
+Sandbox/.vsconfig
+*.uproject
+Sandbox/Sandbox.sln
