@@ -16,7 +16,7 @@ AExplodingBarrel::AExplodingBarrel()
 	BarrelMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BarrelMesh"));
 	RootComponent = BarrelMesh;
 
-	FireParticleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BarrelMesh"));
+	FireParticleSystemComponent = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("BarrelMeshFireParticle"));
 	FireParticleSystemComponent->SetupAttachment(RootComponent);
 	FireParticleSystemComponent->bAutoActivate = false;
 
@@ -95,6 +95,8 @@ void AExplodingBarrel::OnDamageTaken(AActor *DamagedActor, float Damage, const U
 		// Play explosion sound and particle system
 		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ExplosionParticle, BarrelLocation);
 		UGameplayStatics::PlaySoundAtLocation(GetWorld(), ExplosionSound, BarrelLocation);
+
+		Destroy();
 	}
 }
 

@@ -37,14 +37,16 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ExplodingBarrel")
 	USoundCue* ExplosionSound;
 
-	UPROPERTY(VisibleAnywhere, Category = "Effects")
+	UPROPERTY(EditAnywhere, Category = "Effects")
 	UParticleSystem* ExplosionParticle;
 
 	UPROPERTY(VisibleAnywhere, Category = "Effects")
 	UParticleSystemComponent* FireParticleSystemComponent;
 
+	/*
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "ExplodingBarrel")
 	UParticleSystem* FireParticle;
+	*/
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Effects")
 	URadialForceComponent* RadialForce;
