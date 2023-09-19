@@ -1,9 +1,10 @@
 # Unreal Engine Work Examples
 In this repo, you’ll find exploration and sandbox C++ and Python projects for Unreal Engine including tooling and Unreal Architecture, like Actors and Objects. Some highlights in this repo are:
 
-- ChatGPT Widget<br>
-- Exploding Barrels<br>
-- Editor Utility Widget<br><br>
+- ChatGPT Widget (ChatGPT/Source)<br>
+- Simon Puzzle (royale-escape)<br>
+- Exploding Barrels (Sandbox/Source)<br>
+- Editor Utility Widget (Sandbox/Source)<br><br>
 
 
 
@@ -17,6 +18,13 @@ A Widget that holds ChatGPT in engine using OpenAI API<br>
 
 ![ChatGPTWrapperTest_Widget](https://github.com/ncab/UE-work-examples/assets/60075021/ea9ed7ed-862e-4c7e-9f6e-77bc7998f4e4)
 <br>
+## **Simon Puzzle**
+Featured Simon puzzle in a short escape room game<br>
+[Simon Puzzle Blueprints](https://github.com/ncab/UE-work-examples/blob/main/royale-escape/README.md)<br>
+
+https://github.com/ncab/UE-work-examples/assets/60075021/829ddcbf-6831-4612-97e7-703462ea5fcf
+
+
 ## **Exploding Barrel** 
 C++ barrel actors with particles, sounds, and damage<br>
 [Exploding Barrels C++](https://github.com/ncab/UE-work-examples/blob/main/Sandbox/Source/Sandbox/Private/ExplodingBarrel.cpp)<br>
