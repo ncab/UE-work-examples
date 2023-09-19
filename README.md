@@ -2,7 +2,7 @@
 In this repo, you’ll find exploration and sandbox C++ and Python projects for Unreal Engine including tooling and Unreal Architecture, like Actors and Objects. Some highlights in this repo are:
 
 - ChatGPT Widget (ChatGPT/Source)<br>
-- Simon Puzzle (royale-escape)<br>
+- Simon Puzzle (royale-escape) _*Demo under Simon Puzzle section below_<br>
 - Exploding Barrels (Sandbox/Source)<br>
 - Editor Utility Widget (Sandbox/Source)<br><br>
 
