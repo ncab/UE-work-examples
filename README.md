@@ -24,3 +24,9 @@ C++ barrel actors with particles, sounds, and damage<br>
 
 ![ExplodingBarrels01](https://github.com/ncab/UE-work-examples/assets/60075021/f98768f3-1fe9-48e0-acec-b61541e14209)
 ![ExplodingBarrels02](https://github.com/ncab/UE-work-examples/assets/60075021/accbd280-1f28-45a5-8902-780c6dedf1fd)
+<br>
+## **Editor Utility Widget** 
+A Widget that holds Python code to quickly generate new levels, atmosphere, and master materials<br><br>
+![EditorUtilityWidget01](https://github.com/ncab/UE-work-examples/assets/60075021/836e861b-7ab7-4f94-9d63-b2724ddce062)
+![EditorUtilityWidget02](https://github.com/ncab/UE-work-examples/assets/60075021/248fc2ca-a51b-4fc7-aed2-6923a7a741a4)
+
