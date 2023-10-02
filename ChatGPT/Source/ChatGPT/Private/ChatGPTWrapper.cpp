@@ -1,5 +1,3 @@
-// 
-
 #include "ChatGPTWrapper.h"
 #include "Dom/JsonObject.h"
 #include "Serialization/JsonReader.h"
@@ -30,7 +28,7 @@ FString UChatGPTWrapper::GetOpenAIAPIKey()
     return TEXT("");
 }
 
-//Send request to API using Json
+// Send request to API using Json
 void UChatGPTWrapper::SendRequest(const FString& Prompt, const FOnSuccessDelegate& OnSuccess, const FOnErrorDelegate& OnError)
 {
     FString APIKey = GetOpenAIAPIKey();
